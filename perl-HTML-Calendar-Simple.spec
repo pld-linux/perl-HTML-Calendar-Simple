@@ -11,7 +11,7 @@ Name:		perl-HTML-Calendar-Simple
 Version:	0.04
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4524a1c386f63e7fe6e9815ef37a13c5
