@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Calendar-Simple
 Summary:	HTML::Calendar::Simple - a simple HTML calendar
-Summary(pl):	HTML::Calendar::Simple - prosty kalendarz w HTML
+Summary(pl.UTF-8):   HTML::Calendar::Simple - prosty kalendarz w HTML
 Name:		perl-HTML-Calendar-Simple
 Version:	0.04
 Release:	1
@@ -35,14 +35,14 @@ HTML::CalendarMonthSimple, and thinking 'Hmmm. A bit too complicated
 for what I want. I know, I will write a simplified version.' So it was
 done.
 
-%description -l pl
-Ten prosty modu³ tworzy reprezentacjê podanego miesi±ca w HTML. Mo¿na
-dodawaæ odno¶niki do poszczególnych dni, lub, w praktyce, dowolny
+%description -l pl.UTF-8
+Ten prosty moduÅ‚ tworzy reprezentacjÄ™ podanego miesiÄ…ca w HTML. MoÅ¼na
+dodawaÄ‡ odnoÅ›niki do poszczegÃ³lnych dni, lub, w praktyce, dowolny
 rodzaj informacji.
 
-Inspiracja wziê³a siê z patrzenia na HTML::CalendarMonthSimple i
-my¶lenia "Hmmm. Trochê zbyt skomplikowane do tego, co chcê. Wiem,
-napiszê uproszczon± wersjê.". No i zosta³a napisana.
+Inspiracja wziÄ™Å‚a siÄ™ z patrzenia na HTML::CalendarMonthSimple i
+myÅ›lenia "Hmmm. TrochÄ™ zbyt skomplikowane do tego, co chcÄ™. Wiem,
+napiszÄ™ uproszczonÄ… wersjÄ™.". No i zostaÅ‚a napisana.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
