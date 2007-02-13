@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Calendar-Simple
 Summary:	HTML::Calendar::Simple - a simple HTML calendar
-Summary(pl.UTF-8):   HTML::Calendar::Simple - prosty kalendarz w HTML
+Summary(pl.UTF-8):	HTML::Calendar::Simple - prosty kalendarz w HTML
 Name:		perl-HTML-Calendar-Simple
 Version:	0.04
 Release:	1
