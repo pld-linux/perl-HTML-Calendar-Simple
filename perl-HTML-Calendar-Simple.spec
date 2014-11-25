@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	HTML
 %define		pnam	Calendar-Simple
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::Calendar::Simple - a simple HTML calendar
 Summary(pl.UTF-8):	HTML::Calendar::Simple - prosty kalendarz w HTML
 Name:		perl-HTML-Calendar-Simple
@@ -15,13 +15,14 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4524a1c386f63e7fe6e9815ef37a13c5
+URL:		http://search.cpan.org/dist/HTML-Calendar-Simple/
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-CGI >= 2.752
 BuildRequires:	perl-Date-Simple >= 1.03
 BuildRequires:	perl-Test-Simple >= 0.40
 %endif
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
