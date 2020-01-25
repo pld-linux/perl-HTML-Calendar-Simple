@@ -4,7 +4,6 @@
 
 %define		pdir	HTML
 %define		pnam	Calendar-Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::Calendar::Simple - a simple HTML calendar
 Summary(pl.UTF-8):	HTML::Calendar::Simple - prosty kalendarz w HTML
 Name:		perl-HTML-Calendar-Simple
